@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CareerVerse — Discover Your Future</title>
+    <meta
+      name="description"
+      content="CareerVerse — AI-powered career recommendations based on your hobbies, interests, academics, and soft skills."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- 3D Canvas Background -->
+    <canvas id="bg-canvas"></canvas>
+    <div class="bg-overlay"></div>
+
+    <!-- Navbar -->
+    <header id="navbar">
+      <nav class="nav-inner">
+        <a href="#/" class="logo">
+          <span class="logo-icon">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="20"
+              height="20"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <circle cx="12" cy="12" r="10" />
+              <polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76" />
+            </svg>
+          </span>
+          <h1>Career<span class="brand-text">Verse</span></h1>
+        </a>
+        <div class="nav-links">
+          <a href="#/" class="nav-link" data-route="/">Home</a>
+          <a href="#/about" class="nav-link" data-route="/about">About Us</a>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Main content (pages injected by JS) -->
+    <main id="app"></main>
+
+    <!-- Footer -->
+    <footer id="footer">
+      <div class="footer-inner">
+        <div class="footer-logo">
+          <span class="logo-icon small">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <circle cx="12" cy="12" r="10" />
+              <polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76" />
+            </svg>
+          </span>
+          <span class="footer-name">Career<span class="brand-text">Verse</span></span>
+        </div>
+        <p class="footer-tagline">
+          AI-powered career discovery. Find the path that fits the real you.
+        </p>
+        <p class="footer-copy">© <span id="year"></span> CareerVerse. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script type="module" src="js/three-background.js"></script>
+    <script type="module" src="js/career-engine.js"></script>
+    <script type="module" src="js/pages.js"></script>
+    <script type="module" src="js/main.js"></script>
+  </body>
+</html>
