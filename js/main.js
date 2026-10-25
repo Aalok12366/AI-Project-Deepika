@@ -707,7 +707,6 @@ var CareerEngine = (function () {
   }
 
   // Init
-  document.getElementById('year').textContent = new Date().getFullYear();
   window.addEventListener('hashchange', router);
   router();
 })();
