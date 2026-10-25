@@ -357,11 +357,10 @@ var Pages = (function () {
   }
 
   var TEAM = [
-    { name: 'Aalok Kumar', role: 'Idea And Planning', img: 'Assets/img/H.jpg', glow: 'brand' },
-    { name: 'Aalok Kumar', role: 'AI powered Analysis',img: 'Assets/img/H.jpg', glow: 'accent' },
-    { name: 'Aalok kumar', role: 'Page structure designing',img: 'Assets/img/H.jpg', glow: 'brand' },
-    { name: 'Aalok kumar', role: 'Page styling and polishing',img: 'Assets/img/H.jpg', glow: 'accent' },
-    { name: 'Aalok kumar', role: 'Website Responsiveness',img: 'Assets/img/H.jpg', glow: 'brand' },
+    { name: 'Deepika', role: 'Idea And Planning', img: 'Assets/img/H.jpg', glow: 'brand' },
+    { name: 'Anjali', role: 'AI powered Analysis',img: 'Assets/img/H.jpg', glow: 'accent' },
+    { name: 'Mayank', role: 'Page structure designing',img: 'Assets/img/H.jpg', glow: 'brand' },
+    { name: 'Nitesh', role: 'Page styling , Website Responsiveness and polishing',img: 'Assets/img/H.jpg', glow: 'accent' },
   ];
 
   function about() {
