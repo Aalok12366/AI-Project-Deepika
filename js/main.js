@@ -357,10 +357,10 @@ var Pages = (function () {
   }
 
   var TEAM = [
-    { name: 'Deepika', role: 'Idea And Planning', img: 'Assets/img/H.jpg', glow: 'brand' },
-    { name: 'Anjali', role: 'AI powered Analysis',img: 'Assets/img/H.jpg', glow: 'accent' },
-    { name: 'Mayank', role: 'Page structure designing',img: 'Assets/img/H.jpg', glow: 'brand' },
-    { name: 'Nitesh', role: 'Page styling , Website Responsiveness and polishing',img: 'Assets/img/H.jpg', glow: 'accent' },
+    { name: 'Deepika', role: 'Idea And Planning', img: 'Assets/img/OIP.webp', glow: 'brand' },
+    { name: 'Anjali', role: 'AI powered Analysis',img: 'Assets/img/OIP.webp', glow: 'accent' },
+    { name: 'Mayank', role: 'Page structure designing',img: 'Assets/img/OIP.webp', glow: 'brand' },
+    { name: 'Nitesh', role: 'Page styling , Website Responsiveness and polishing',img: 'Assets/img/OIP.webp', glow: 'accent' },
   ];
 
   function about() {
